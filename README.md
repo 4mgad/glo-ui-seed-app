@@ -1,4 +1,14 @@
-This is a seed/template application for glo-ui.  
+This is a seed/template application for glo-ui.
+
+To clone the project:
+```text
+git clone https://github.com/4mgad/glo-ui-seed-app.git
+```  
+
+To install dependencies:
+```text
+cd glo-ui-seed-app && npm i
+```  
 
 To start the application in **development** mode:
 ```text
