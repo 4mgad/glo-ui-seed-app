@@ -15,7 +15,7 @@ module.exports = {
 
 	output: {
 		path: path.join(__dirname, 'dist/'),
-		filename: 'resume.min.js',
+		filename: 'glo-ui-seed-app.min.js',
 		publicPath: '/'
 	},
 

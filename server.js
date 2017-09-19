@@ -7,11 +7,11 @@ const webpackMiddleware = require('webpack-dev-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
 const config = require('./webpack.config.dev.js');
 
-const isDeveloping = process.env.NODE_ENV !== 'production';
+const isDevelopment = process.env.NODE_ENV !== 'production';
 const port = process.env.PORT || 4000;
 const app = express();
 
-if (isDeveloping) {
+if (isDevelopment) {
 	const compiler = webpack(config);
 	const middleware = webpackMiddleware(compiler, {
 		publicPath: config.output.publicPath,
